@@ -1,0 +1,40 @@
+name: flutter_application_portfolio
+description: "A portfolio project built with Flutter."
+publish_to: 'none' # Remove this if publishing to pub.dev
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.5 # For opening URLs (websites, email, etc.)
+  font_awesome_flutter: ^10.5.1 # For LinkedIn and other social media icons
+  animated_text_kit: ^4.2.2
+  google_fonts: ^6.2.1
+  flutter_pdfview: ^1.4.0
+  open_file: ^3.5.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Declare assets here
+  assets:
+    - assets/background_image.jpg
+    - assets/portpolio.png
+    - assets/aboutme _backgroundimage.jpg
+    - assets/omkar_image.jpg
+    - assets/education_background_image.jpg
+    - assets/project_detail_background.jpg
+    - assets/Project_assets/Habbit_Tracker_image.jpg
+    - assets/Project_assets/quiz_app.jpg
+    - assets/Project_assets/todo_app.jpg
+    - assets/CV.pdf
+    - assets/Project_assets/netwok_exploit_detection.jpg
+    - assets/Background_iamge_psection.jpg
