@@ -18,7 +18,7 @@ class ResumeSection extends StatefulWidget {
 class _ResumeSectionState extends State<ResumeSection> {
   bool isHovered = false;
   bool isPressed = false;
-  final String cvPath = "assets/CV.pdf"; // Ensure CV.pdf is in assets
+  final String cvPath = "assets/Resume.pdf"; // Ensure CV.pdf is in assets
 
   Future<void> _downloadCV(BuildContext context) async {
     try {
